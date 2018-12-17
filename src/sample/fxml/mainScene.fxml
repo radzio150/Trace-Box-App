@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+
+<AnchorPane fx:controller="sample.backend.LoginController" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="600.0" prefWidth="1024.0" style="-fx-background-color: #A3B86C;"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="ScanningStationID" layoutX="344.0" layoutY="120.0" text="Scanning for station NFC card..." textFill="WHITE" >
+         <font>
+            <Font name="SansSerif" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="ScanningUserID" layoutX="357.0" layoutY="449.0" text="Scanning for user NFC card..." textFill="WHITE" >
+         <font>
+            <Font name="SansSerif" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="14.0" text="Last station:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="14.0" prefHeight="18.0" prefWidth="112.0" textFill="WHITE">
+         <font>
+            <Font name="SansSerif" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="14.0" prefHeight="18.0" prefWidth="112.0" textFill="WHITE">
+         <font>
+            <Font name="SansSerif" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="14.0" text="Job status:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="16.0" text="Job ID:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="509.0" layoutY="16.0" prefHeight="18.0" prefWidth="112.0" textFill="WHITE">
+         <font>
+            <Font name="SansSerif" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="873.0" layoutY="16.0" prefHeight="18.0" prefWidth="112.0" textFill="WHITE">
+         <font>
+            <Font name="SansSerif" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="792.0" layoutY="16.0" text="Last station:" textFill="WHITE">
+         <font>
+            <Font name="SansSerif" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="217.0" fitWidth="223.0" layoutX="404.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/38c1a22efec51b13e700014c29b1811d.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
